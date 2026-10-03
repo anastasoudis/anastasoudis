@@ -1,27 +1,27 @@
 ## Hi, I'm Dimitrios
 
-ECE final-year @ Democritus University of Thrace — focused on **Machine Learning** and **Data Science**.
+I'm a final-year Electrical and Computer Engineering student at the Democritus University of Thrace, interested in machine learning and data science.
 
 Currently writing my M.Eng. thesis, **Evaluation of User Contributions in Federated Learning**. A simple neural network learns to recognize six activities from smartphone sensor data (UCI HAR), trained with federated averaging in PyTorch, so each person's raw data stay on their device. The thesis then measures what each of the 21 participants contributes with a per-round Shapley value, estimated with KernelSHAP and a GTG-Shapley variant, and turns it into reward shares. Code, data and the thesis text are in [Diplom](https://github.com/anastasoudis/Diplom).
 
-### What's in my repos
+### Repositories
 
-Five Pattern Recognition projects from DUTh, pinned below:
+Five projects from the Pattern Recognition course at DUTh:
 
-- **Drug-discovery + face-mask classifier** — [pattern-recognition-final](https://github.com/anastasoudis/pattern-recognition-final): PCA + CNN binding classifier reaching **AUC 0.9509** on 3,473 mixed continuous + binary-fingerprint features; CNN face-mask classifier with an anomaly-detection head for an unseen class.
-- **Neural nets, autoencoder, random forest** — [pattern-recognition-assignment-4](https://github.com/anastasoudis/pattern-recognition-assignment-4): feed-forward NN on IRIS, autoencoder with 3-D latent-space exploration on MNIST, and Random Forest with a missing-data sensitivity sweep on Breast Cancer Wisconsin.
-- **Clustering, PCA / LDA, MDS** — [pattern-recognition-assignment-3](https://github.com/anastasoudis/pattern-recognition-assignment-3): k-means with Silhouette / Rand Index validation, agglomerative clustering with Ward linkage, PCA and LDA on UCI seeds, classical MDS on a city air-distance matrix.
-- **Density estimation + SVM** — [pattern-recognition-assignment-2](https://github.com/anastasoudis/pattern-recognition-assignment-2): Parzen-window and k-NN non-parametric density estimation, linear and kernel SVM with cross-validation on UCI Wine.
-- **Bayesian decision theory** — [pattern-recognition-assignment-1](https://github.com/anastasoudis/pattern-recognition-assignment-1): Bayes-optimal classifiers, total classification error analysis, ML parameter estimation, minimax decision boundaries, recursive Bayesian estimation.
+- [pattern-recognition-final](https://github.com/anastasoudis/pattern-recognition-final): a CNN that separates faces with and without a mask, with a second network that flags incorrectly worn masks as anomalies, and a PCA + 1D CNN that predicts whether a molecule binds to a receptor (AUC 0.9509 on the validation split).
+- [pattern-recognition-assignment-4](https://github.com/anastasoudis/pattern-recognition-assignment-4): a small neural network on IRIS, an autoencoder with a 3-D latent space on MNIST, and a decision tree on Breast Cancer Wisconsin.
+- [pattern-recognition-assignment-3](https://github.com/anastasoudis/pattern-recognition-assignment-3): k-means with the Silhouette coefficient and the Rand index, hierarchical clustering with Ward linkage, PCA and LDA on the UCI seeds data, and classical MDS on air distances between cities.
+- [pattern-recognition-assignment-2](https://github.com/anastasoudis/pattern-recognition-assignment-2): Parzen windows and k-NN density estimation, the perceptron, and linear and kernel SVMs on the UCI Wine data.
+- [pattern-recognition-assignment-1](https://github.com/anastasoudis/pattern-recognition-assignment-1): the Bayes decision rule, classification error, maximum-likelihood estimation, minimax decisions and recursive Bayesian estimation.
 
-### Stack
+### Tools
 
-- **ML / DS** — Python, PyTorch, scikit-learn, Keras, pandas, NumPy
-- **Data** — SQL, ETL fundamentals
-- **Tools** — Git, Linux, Bash, LaTeX
-- **Foundations** — Probability & Statistics, Linear Algebra, Optimization, Algorithms
+- Python with PyTorch, scikit-learn, Keras, pandas and NumPy, and MATLAB
+- SQL and the basics of ETL
+- Git, Linux, Bash and LaTeX
+- Background in probability and statistics, linear algebra, optimization and algorithms
 
-### Reach me
+### Contact
 
-- **Email** — dimitrisanastasoudis@gmail.com
-- **LinkedIn** — [linkedin.com/in/anastasoudis](https://linkedin.com/in/anastasoudis)
+- Email: dimitrisanastasoudis@gmail.com
+- LinkedIn: [linkedin.com/in/anastasoudis](https://linkedin.com/in/anastasoudis)
