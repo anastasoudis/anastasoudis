@@ -2,7 +2,7 @@
 
 ECE final-year @ Democritus University of Thrace — focused on **Machine Learning** and **Data Science**.
 
-Currently writing my M.Eng. thesis on **federated learning for human activity recognition** in smart-home environments — PyTorch, Flower, 1D-CNN, Stackelberg-game incentives, Shapley-value contribution rewards. Raw sensor data never leaves the client device throughout training.
+Currently writing my M.Eng. thesis, **Evaluation of User Contributions in Federated Learning**. A simple neural network learns to recognize six activities from smartphone sensor data (UCI HAR), trained with federated averaging in PyTorch, so each person's raw data stay on their device. The thesis then measures what each of the 21 participants contributes with a per-round Shapley value, estimated with KernelSHAP and a GTG-Shapley variant, and turns it into reward shares. Code, data and the thesis text are in [Diplom](https://github.com/anastasoudis/Diplom).
 
 ### What's in my repos
 
